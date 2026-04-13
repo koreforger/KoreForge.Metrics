@@ -5,6 +5,10 @@ on:
     tags:
       - 'KoreForge.Metrics/v*'
 
+permissions:
+  contents: write
+  id-token: write
+
 jobs:
   publish:
     name: Pack & Publish
@@ -14,15 +18,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0        # MinVer needs full history to compute version
+          fetch-depth: 0
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '10.0.x'
-
-      - name: Restore local tools
-        run: dotnet tool restore
 
       - name: Build
         run: dotnet build KoreForge.Metrics.sln -c Release
@@ -31,13 +32,23 @@ jobs:
         run: dotnet test KoreForge.Metrics.sln -c Release --no-build
 
       - name: Pack
-        run: |
-          dotnet pack src/KF.Metrics/KF.Metrics.csproj -c Release --no-build \
-            --output artifacts/
+        run: dotnet pack src/KF.Metrics/KF.Metrics.csproj -c Release --no-build -o artifacts/
 
-      - name: Push to NuGet
+      - name: NuGet login (Trusted Publishing)
+        id: login
+        uses: NuGet/login@v1
+        with:
+          user: ${{ secrets.NUGET_USER }}
+
+      - name: Push to NuGet.org
         run: |
           dotnet nuget push artifacts/*.nupkg \
-            --api-key ${{ secrets.NUGET_API_KEY }} \
+            --api-key "${{ steps.login.outputs.NUGET_API_KEY }}" \
             --source https://api.nuget.org/v3/index.json \
             --skip-duplicate
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: artifacts/*.nupkg
+          generate_release_notes: true
