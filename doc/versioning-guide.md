@@ -16,7 +16,7 @@ Example release tag: `KoreForge.Metrics/v1.4.0`
 
 ## Versioning Scripts
 
-This solution provides two scripts in the `bin/` folder to manage versions:
+This solution provides two scripts in the `scr/` folder to manage versions:
 
 ### Get-Version.ps1
 
@@ -38,13 +38,13 @@ Creates release tags:
 
 ```powershell
 # Create a tag locally
-.\bin\git-push-nuget.ps1 -Version 1.2.0 -TagOnly
+.\scr\git-push-nuget.ps1 -Version 1.2.0 -TagOnly
 
 # Create and push to origin
-.\bin\git-push-nuget.ps1 -Version 1.2.0
+.\scr\git-push-nuget.ps1 -Version 1.2.0
 
 # Overwrite an existing tag
-.\bin\git-push-nuget.ps1 -Version 1.2.0 -Force
+.\scr\git-push-nuget.ps1 -Version 1.2.0 -Force
 ```
 
 ## Semantic Versioning Rules
@@ -65,21 +65,21 @@ Creates release tags:
 
 2. Run all tests:
    ```powershell
-   .\bin\build-test.ps1
+   .\scr\build-test.ps1
    # or with coverage
-   .\bin\build-test-codecoverage.ps1
+   .\scr\build-test-codecoverage.ps1
    ```
 
 3. Decide the new SemVer (MAJOR.MINOR.PATCH) according to the rules above.
 
 4. Create and push the release tag:
    ```powershell
-   .\bin\git-push-nuget.ps1 -Version 1.2.0
+   .\scr\git-push-nuget.ps1 -Version 1.2.0
    ```
 
 5. Build and pack:
    ```powershell
-   .\bin\build-pack.ps1
+   .\scr\build-pack.ps1
    ```
 
 6. Verify the package version in the `artifacts/` folder matches your tag.
@@ -92,7 +92,7 @@ Creates release tags:
 - These builds are suitable for internal consumption, previews, or testing feeds but should not be published as official releases.
 - To publish a preview release, use a pre-release tag like `1.4.0-beta.1`:
   ```powershell
-  .\bin\git-push-nuget.ps1 -Version 1.4.0-beta.1
+  .\scr\git-push-nuget.ps1 -Version 1.4.0-beta.1
   ```
 
 ## Do's and Don'ts
@@ -113,10 +113,10 @@ Creates release tags:
 | Scenario | Command |
 | --- | --- |
 | Check current version | `git describe --tags --match "KoreForge.Metrics/v*"` |
-| Breaking change release | `.\bin\git-push-nuget.ps1 -Version 2.0.0` |
-| New feature release | `.\bin\git-push-nuget.ps1 -Version 1.3.0` |
-| Bug fix / patch release | `.\bin\git-push-nuget.ps1 -Version 1.2.1` |
-| Preview/beta release | `.\bin\git-push-nuget.ps1 -Version 1.4.0-beta.1` |
+| Breaking change release | `.\scr\git-push-nuget.ps1 -Version 2.0.0` |
+| New feature release | `.\scr\git-push-nuget.ps1 -Version 1.3.0` |
+| Bug fix / patch release | `.\scr\git-push-nuget.ps1 -Version 1.2.1` |
+| Preview/beta release | `.\scr\git-push-nuget.ps1 -Version 1.4.0-beta.1` |
 
 ## Relation to Other Khaos Libraries
 

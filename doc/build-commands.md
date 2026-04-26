@@ -30,14 +30,14 @@ Front-end assets are not applicable today. If a UI is introduced later, document
 | Collect code coverage (Cobertura XML) | `dotnet test --collect:"XPlat Code Coverage" --results-directory TestResults` |
 | Generate HTML coverage after collecting | `dotnet tool run reportgenerator -reports:"TestResults/<run-id>/coverage.cobertura.xml" -targetdir:"TestResults/coverage-html" -reporttypes:Html` |
 | Open coverage report (after generation) | `Start-Process TestResults/coverage-html/index.html` |
-| Run tests + coverage + auto-open report | `.\bin\build-test-codecoverage.ps1` |
+| Run tests + coverage + auto-open report | `.\scr\build-test-codecoverage.ps1` |
 
 ## Cleaning Artifacts
 
 | Task | Command |
 | --- | --- |
 | Dotnet clean (all configurations) | `dotnet clean` |
-| Remove all `bin`/`obj`/`TestResults` folders | `.\bin\build-clean.ps1` |
+| Remove all `bin`/`obj`/`TestResults` folders | `.\scr\build-clean.ps1` |
 | Manually delete global TestResults | `Remove-Item TestResults -Recurse -Force` |
 
 ## Benchmarks
@@ -61,7 +61,7 @@ Front-end assets are not applicable today. If a UI is introduced later, document
 1. **Fresh build from scratch**
 
 	```powershell
-	.\bin\build-clean.ps1
+	.\scr\build-clean.ps1
 	dotnet restore
 	dotnet build -c Release
 	```
@@ -69,7 +69,7 @@ Front-end assets are not applicable today. If a UI is introduced later, document
 2. **Run tests and view coverage**
 
 	```powershell
-	.\bin\build-test-codecoverage.ps1
+	.\scr\build-test-codecoverage.ps1
 	```
 
 3. **Publish libraries (Release)**
