@@ -118,7 +118,7 @@ Creates release tags:
 | Bug fix / patch release | `.\scr\git-push-nuget.ps1 -Version 1.2.1` |
 | Preview/beta release | `.\scr\git-push-nuget.ps1 -Version 1.4.0-beta.1` |
 
-## Relation to Other Khaos Libraries
+## Relation to Other KoreForge Libraries
 
 All KoreForge.* repositories follow this same versioning pattern:
 - Each solution has its own tag prefix (e.g., `KoreForge.Logging/v`, `KoreForge.Kafka/v`)
