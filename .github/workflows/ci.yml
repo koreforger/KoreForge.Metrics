@@ -26,11 +26,11 @@ jobs:
         run: dotnet tool restore
 
       - name: Build
-        run: dotnet build KoreForge.Metrics.sln -c Debug
+        run: dotnet build KoreForge.Metrics.slnx -c Debug
 
       - name: Test with coverage
         run: |
-          dotnet test KoreForge.Metrics.sln -c Debug --no-build \
+          dotnet test KoreForge.Metrics.slnx -c Debug --no-build \
             --logger "html;LogFileName=TestResults.html" \
             --results-directory out/TestResults
 
