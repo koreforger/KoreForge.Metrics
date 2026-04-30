@@ -1,0 +1,14 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/src/">
+    <Project Path="src/KF.Metrics/KF.Metrics.csproj" />
+  </Folder>
+  <Folder Name="/tst/">
+    <Project Path="tst/KF.Metrics.Benchmarks/KF.Metrics.Benchmarks.csproj" />
+    <Project Path="tst/KF.Metrics.Tests/KF.Metrics.Tests.csproj" />
+  </Folder>
+</Solution>
