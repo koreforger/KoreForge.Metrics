@@ -8,7 +8,6 @@
     <IsTestProject>true</IsTestProject>
     <CollectCoverage>true</CollectCoverage>
     <CoverletOutputFormat>cobertura</CoverletOutputFormat>
-    <CoverletOutput>../../out/TestResults/raw/coverage.cobertura.xml</CoverletOutput>
     <Include>[KF.Metrics*]*</Include>
     <Exclude>[*.Tests]*</Exclude>
   </PropertyGroup>
@@ -35,3 +34,4 @@
   </ItemGroup>
 
 </Project>
+
