@@ -1,9 +1,9 @@
 [CmdletBinding()]
-param()
+param(
+    [ValidateSet('Debug', 'Release')]
+    [string]$Configuration = 'Release'
+)
 
-Push-Location (Resolve-Path "$PSScriptRoot\..")
-try {
-    dotnet run --project tst/KF.Metrics.Benchmarks/KF.Metrics.Benchmarks.csproj -c Release
-} finally {
-    Pop-Location
-}
+Import-Module (Join-Path $PSScriptRoot 'koreforge-build.psm1') -Force -DisableNameChecking
+Invoke-KfBenchmark -Configuration $Configuration
+
