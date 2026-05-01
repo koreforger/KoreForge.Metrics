@@ -7,7 +7,7 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\KF.Metrics\KF.Metrics.csproj" />
+    <PackageReference Include="KoreForge.Metrics" VersionOverride="1.0.1-alpha" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" />
