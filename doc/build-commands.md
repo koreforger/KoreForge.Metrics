@@ -14,10 +14,10 @@ dotnet restore
 | --- | --- |
 | Build every project (Debug) | `dotnet build` |
 | Build Release binaries | `dotnet build -c Release` |
-| Build only the core library | `dotnet build src/KF.Metrics/KF.Metrics.csproj` |
-| Build ASP.NET integration | `dotnet build src/KF.Metrics.AspNet/KF.Metrics.AspNet.csproj` |
-| Publish libraries for deployment | `dotnet publish -c Release src/KF.Metrics/KF.Metrics.csproj` |
-| Build benchmarks (Release) | `dotnet build -c Release tst/KF.Metrics.Benchmarks/KF.Metrics.Benchmarks.csproj` |
+| Build only the core library | `dotnet build src/KoreForge.Metrics/KoreForge.Metrics.csproj` |
+| Build ASP.NET integration | `dotnet build src/KoreForge.Metrics.AspNet/KoreForge.Metrics.AspNet.csproj` |
+| Publish libraries for deployment | `dotnet publish -c Release src/KoreForge.Metrics/KoreForge.Metrics.csproj` |
+| Build benchmarks (Release) | `dotnet build -c Release tst/KoreForge.Metrics.Benchmarks/KoreForge.Metrics.Benchmarks.csproj` |
 
 Front-end assets are not applicable today. If a UI is introduced later, document its npm/yarn build commands here.
 
@@ -44,8 +44,8 @@ Front-end assets are not applicable today. If a UI is introduced later, document
 
 | Scenario | Command |
 | --- | --- |
-| Run benchmark suite (Release) | `dotnet run -c Release --project tst/KF.Metrics.Benchmarks` |
-| Collect BenchmarkDotNet artifacts | Check `tst/KF.Metrics.Benchmarks/BenchmarkDotNet.Artifacts` after running |
+| Run benchmark suite (Release) | `dotnet run -c Release --project tst/KoreForge.Metrics.Benchmarks` |
+| Collect BenchmarkDotNet artifacts | Check `tst/KoreForge.Metrics.Benchmarks/BenchmarkDotNet.Artifacts` after running |
 
 ## Diagnostics & Utilities
 
@@ -75,8 +75,8 @@ Front-end assets are not applicable today. If a UI is introduced later, document
 3. **Publish libraries (Release)**
 
 	```powershell
-	dotnet publish -c Release src/KF.Metrics/KF.Metrics.csproj
-	dotnet publish -c Release src/KF.Metrics.AspNet/KF.Metrics.AspNet.csproj
+	dotnet publish -c Release src/KoreForge.Metrics/KoreForge.Metrics.csproj
+	dotnet publish -c Release src/KoreForge.Metrics.AspNet/KoreForge.Metrics.AspNet.csproj
 	```
 
 Add future commands (front-end builds, container packaging, etc.) to this file as new components land.

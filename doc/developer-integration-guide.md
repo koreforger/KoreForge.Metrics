@@ -111,5 +111,5 @@ No endpoints are published unless you opt in via one of these paths.
 
 ## 6. Benchmarking Hook
 
-Run `dotnet run -c Release --project tst/KF.Metrics.Benchmarks` to evaluate instrumentation overhead whenever you change critical code paths.
+Run `dotnet run -c Release --project tst/KoreForge.Metrics.Benchmarks` to evaluate instrumentation overhead whenever you change critical code paths.
 

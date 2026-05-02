@@ -5,10 +5,10 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/src/">
-    <Project Path="src/KF.Metrics/KF.Metrics.csproj" />
+    <Project Path="src/KoreForge.Metrics/KoreForge.Metrics.csproj" />
   </Folder>
   <Folder Name="/tst/">
-    <Project Path="tst/KF.Metrics.Benchmarks/KF.Metrics.Benchmarks.csproj" />
-    <Project Path="tst/KF.Metrics.Tests/KF.Metrics.Tests.csproj" />
+    <Project Path="tst/KoreForge.Metrics.Benchmarks/KoreForge.Metrics.Benchmarks.csproj" />
+    <Project Path="tst/KoreForge.Metrics.Tests/KoreForge.Metrics.Tests.csproj" />
   </Folder>
 </Solution>

@@ -1,0 +1,3436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.7028" branch-rate="0.6990000000000001" version="1.9" timestamp="1777751124" lines-covered="577" lines-valid="821" branches-covered="144" branches-valid="206">
+  <sources>
+    <source>C:\My\KoreForge2\eco-system\KoreForge.Metrics\src\KoreForge.Metrics\</source>
+  </sources>
+  <packages>
+    <package name="KoreForge.Metrics" line-rate="0.7028" branch-rate="0.6990000000000001" complexity="365">
+      <classes>
+        <class name="KoreForge.Metrics.ProcessCpuSampler" filename="Diagnostics\ProcessCpuSampler.cs" line-rate="0.8529000000000001" branch-rate="0.625" complexity="17">
+          <methods>
+            <method name="get_LatestSample" signature="()" line-rate="0.7142000000000001" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="40" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="42" hits="0" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="47" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="41" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="49" hits="0" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="StoreSample" signature="(System.Double)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="127" hits="1" branch="False" />
+                <line number="129" hits="1" branch="False" />
+                <line number="130" hits="1" branch="False" />
+                <line number="131" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="68" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="133" hits="1" branch="False" />
+                <line number="135" hits="1" branch="False" />
+                <line number="136" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Dispose" signature="()" line-rate="0.7" branch-rate="0.5" complexity="8">
+              <lines>
+                <line number="140" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="142" hits="0" branch="False" />
+                <line number="145" hits="1" branch="False" />
+                <line number="146" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="23" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="149" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="41" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="150" hits="1" branch="False" />
+                <line number="151" hits="0" branch="False" />
+                <line number="154" hits="0" branch="False" />
+                <line number="156" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="71" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="157" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;.ctor&gt;b__10_0" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(KoreForge.Metrics.MonitoringOptions,System.TimeProvider)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="29" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="89" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="31" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="40" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="6" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="42" hits="0" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="47" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="41" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="49" hits="0" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="127" hits="1" branch="False" />
+            <line number="129" hits="1" branch="False" />
+            <line number="130" hits="1" branch="False" />
+            <line number="131" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="68" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="133" hits="1" branch="False" />
+            <line number="135" hits="1" branch="False" />
+            <line number="136" hits="1" branch="False" />
+            <line number="140" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="6" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="142" hits="0" branch="False" />
+            <line number="145" hits="1" branch="False" />
+            <line number="146" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="23" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="149" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="41" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="150" hits="1" branch="False" />
+            <line number="151" hits="0" branch="False" />
+            <line number="154" hits="0" branch="False" />
+            <line number="156" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="71" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="157" hits="1" branch="False" />
+            <line number="32" hits="2" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="29" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="89" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="31" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.ProcessCpuSampler/&lt;RunAsync&gt;d__13" filename="Diagnostics\ProcessCpuSampler.cs" line-rate="0.8284999999999999" branch-rate="0.6428" complexity="14">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.8284999999999999" branch-rate="0.6428" complexity="14">
+              <lines>
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="63" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="456" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="67" hits="3" branch="False" />
+                <line number="68" hits="2" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="76" hits="2" branch="False" />
+                <line number="77" hits="2" branch="False" />
+                <line number="78" hits="2" branch="False" />
+                <line number="80" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="216" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="82" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="91" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+                <line number="94" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="304" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="96" hits="0" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="100" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="321" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="102" hits="0" branch="False" />
+                <line number="105" hits="1" branch="False" />
+                <line number="106" hits="1" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="363" type="jump" coverage="50%" />
+                    <condition number="372" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="108" hits="0" branch="False" />
+                <line number="111" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="387" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="113" hits="0" branch="False" />
+                <line number="116" hits="1" branch="False" />
+                <line number="117" hits="1" branch="False" />
+                <line number="118" hits="0" branch="False" />
+                <line number="121" hits="0" branch="False" />
+                <line number="123" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="63" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="456" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="67" hits="3" branch="False" />
+            <line number="68" hits="2" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="76" hits="2" branch="False" />
+            <line number="77" hits="2" branch="False" />
+            <line number="78" hits="2" branch="False" />
+            <line number="80" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="216" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="82" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="91" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="94" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="304" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="96" hits="0" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="100" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="321" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="102" hits="0" branch="False" />
+            <line number="105" hits="1" branch="False" />
+            <line number="106" hits="1" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="363" type="jump" coverage="50%" />
+                <condition number="372" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="108" hits="0" branch="False" />
+            <line number="111" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="387" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="113" hits="0" branch="False" />
+            <line number="116" hits="1" branch="False" />
+            <line number="117" hits="1" branch="False" />
+            <line number="118" hits="0" branch="False" />
+            <line number="121" hits="0" branch="False" />
+            <line number="123" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.OperationCompletedContext" filename="Events\OperationCompletedContext.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="4024" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Duration" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="2012" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IsFailure" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="2012" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ConcurrencyAtEnd" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="2012" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Tags" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="2013" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EndTime" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="2012" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ProcessCpuPercent" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="2013" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="4024" branch="False" />
+            <line number="10" hits="2012" branch="False" />
+            <line number="12" hits="2012" branch="False" />
+            <line number="14" hits="2012" branch="False" />
+            <line number="16" hits="2013" branch="False" />
+            <line number="18" hits="2012" branch="False" />
+            <line number="20" hits="2013" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.EventDispatcher" filename="Internal\EventDispatcher.cs" line-rate="0.8392000000000001" branch-rate="0.875" complexity="27">
+          <methods>
+            <method name="get_DroppedEvents" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="UpdateOptions" signature="(KoreForge.Metrics.MonitoringOptions)" line-rate="0.8181" branch-rate="0.8332999999999999" complexity="6">
+              <lines>
+                <line number="31" hits="11" branch="False" />
+                <line number="33" hits="11" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="29" type="jump" coverage="100%" />
+                    <condition number="37" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="39" hits="11" branch="False" />
+                <line number="40" hits="11" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="71" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="42" hits="9" branch="False" />
+                <line number="43" hits="9" branch="False" />
+                <line number="46" hits="2" branch="False" />
+                <line number="47" hits="2" branch="False" />
+                <line number="48" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="Publish" signature="(KoreForge.Metrics.OperationCompletedContext)" line-rate="0.8332999999999999" branch-rate="0.875" complexity="8">
+              <lines>
+                <line number="52" hits="2012" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="54" hits="1006" branch="False" />
+                <line number="57" hits="1006" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="16" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="59" hits="5" branch="False" />
+                <line number="60" hits="5" branch="False" />
+                <line number="63" hits="1001" branch="False" />
+                <line number="64" hits="1001" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="34" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="70" hits="1001" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="56" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="72" hits="999" branch="False" />
+                <line number="74" hits="1001" branch="False" />
+              </lines>
+            </method>
+            <method name="DispatchInline" signature="(KoreForge.Metrics.OperationCompletedContext)" line-rate="0.6666" branch-rate="1" complexity="2">
+              <lines>
+                <line number="78" hits="28" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="35" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="82" hits="7" branch="False" />
+                <line number="83" hits="7" branch="False" />
+                <line number="84" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+                <line number="89" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="StartBackgroundQueue" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="93" hits="2" branch="False" />
+                <line number="94" hits="2" branch="False" />
+                <line number="95" hits="2" branch="False" />
+                <line number="96" hits="4" branch="False" />
+                <line number="97" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="StopBackgroundQueue" signature="()" line-rate="0.8181" branch-rate="1" complexity="6">
+              <lines>
+                <line number="125" hits="22" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="128" hits="22" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="25" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="129" hits="22" branch="False" />
+                <line number="130" hits="0" branch="False" />
+                <line number="133" hits="0" branch="False" />
+                <line number="136" hits="22" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="55" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="137" hits="22" branch="False" />
+                <line number="138" hits="22" branch="False" />
+                <line number="139" hits="22" branch="False" />
+                <line number="140" hits="22" branch="False" />
+                <line number="141" hits="22" branch="False" />
+              </lines>
+            </method>
+            <method name="Dispose" signature="()" line-rate="0.8" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="145" hits="11" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="147" hits="0" branch="False" />
+                <line number="150" hits="11" branch="False" />
+                <line number="151" hits="11" branch="False" />
+                <line number="152" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Collections.Generic.IEnumerable`1&lt;KoreForge.Metrics.IOperationEventSink&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="11" branch="False" />
+                <line number="21" hits="11" branch="False" />
+                <line number="23" hits="11" branch="False" />
+                <line number="24" hits="11" branch="False" />
+                <line number="25" hits="11" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="1" branch="False" />
+            <line number="31" hits="11" branch="False" />
+            <line number="33" hits="11" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="29" type="jump" coverage="100%" />
+                <condition number="37" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="39" hits="11" branch="False" />
+            <line number="40" hits="11" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="71" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="42" hits="9" branch="False" />
+            <line number="43" hits="9" branch="False" />
+            <line number="46" hits="2" branch="False" />
+            <line number="47" hits="2" branch="False" />
+            <line number="48" hits="11" branch="False" />
+            <line number="52" hits="2012" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="54" hits="1006" branch="False" />
+            <line number="57" hits="1006" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="16" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="59" hits="5" branch="False" />
+            <line number="60" hits="5" branch="False" />
+            <line number="63" hits="1001" branch="False" />
+            <line number="64" hits="1001" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="34" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="70" hits="1001" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="56" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="72" hits="999" branch="False" />
+            <line number="74" hits="1001" branch="False" />
+            <line number="78" hits="28" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="35" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="82" hits="7" branch="False" />
+            <line number="83" hits="7" branch="False" />
+            <line number="84" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="89" hits="7" branch="False" />
+            <line number="93" hits="2" branch="False" />
+            <line number="94" hits="2" branch="False" />
+            <line number="95" hits="2" branch="False" />
+            <line number="96" hits="4" branch="False" />
+            <line number="97" hits="2" branch="False" />
+            <line number="125" hits="22" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="128" hits="22" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="25" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="129" hits="22" branch="False" />
+            <line number="130" hits="0" branch="False" />
+            <line number="133" hits="0" branch="False" />
+            <line number="136" hits="22" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="55" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="137" hits="22" branch="False" />
+            <line number="138" hits="22" branch="False" />
+            <line number="139" hits="22" branch="False" />
+            <line number="140" hits="22" branch="False" />
+            <line number="141" hits="22" branch="False" />
+            <line number="145" hits="11" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="6" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="147" hits="0" branch="False" />
+            <line number="150" hits="11" branch="False" />
+            <line number="151" hits="11" branch="False" />
+            <line number="152" hits="11" branch="False" />
+            <line number="13" hits="11" branch="False" />
+            <line number="21" hits="11" branch="False" />
+            <line number="23" hits="11" branch="False" />
+            <line number="24" hits="11" branch="False" />
+            <line number="25" hits="11" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.EventDispatcher/&lt;ConsumeAsync&gt;d__15" filename="Internal\EventDispatcher.cs" line-rate="0.8181" branch-rate="0.6666" complexity="6">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.8181" branch-rate="0.6666" complexity="6">
+              <lines>
+                <line number="101" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="23" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="103" hits="0" branch="False" />
+                <line number="106" hits="2" branch="False" />
+                <line number="109" hits="3" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="195" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="111" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="66" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="113" hits="2" branch="False" />
+                <line number="114" hits="2" branch="False" />
+                <line number="116" hits="0" branch="False" />
+                <line number="117" hits="2" branch="False" />
+                <line number="120" hits="2" branch="False" />
+                <line number="121" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="101" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="23" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="103" hits="0" branch="False" />
+            <line number="106" hits="2" branch="False" />
+            <line number="109" hits="3" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="195" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="111" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="66" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="113" hits="2" branch="False" />
+            <line number="114" hits="2" branch="False" />
+            <line number="116" hits="0" branch="False" />
+            <line number="117" hits="2" branch="False" />
+            <line number="120" hits="2" branch="False" />
+            <line number="121" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.MetricsBucket" filename="Internal\MetricsBucket.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="Reset" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1441" branch="False" />
+                <line number="13" hits="1441" branch="False" />
+                <line number="14" hits="1441" branch="False" />
+                <line number="15" hits="1441" branch="False" />
+                <line number="16" hits="1441" branch="False" />
+              </lines>
+            </method>
+            <method name="AddSample" signature="(System.Int64)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="20" hits="6036" branch="False" />
+                <line number="21" hits="6036" branch="False" />
+                <line number="22" hits="6036" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="36" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="24" hits="42" branch="False" />
+                <line number="27" hits="6036" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="52" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="29" hits="93" branch="False" />
+                <line number="31" hits="6036" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="1441" branch="False" />
+            <line number="13" hits="1441" branch="False" />
+            <line number="14" hits="1441" branch="False" />
+            <line number="15" hits="1441" branch="False" />
+            <line number="16" hits="1441" branch="False" />
+            <line number="20" hits="6036" branch="False" />
+            <line number="21" hits="6036" branch="False" />
+            <line number="22" hits="6036" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="36" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="24" hits="42" branch="False" />
+            <line number="27" hits="6036" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="52" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="29" hits="93" branch="False" />
+            <line number="31" hits="6036" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.MetricsWindow" filename="Internal\MetricsWindow.cs" line-rate="0.8845999999999999" branch-rate="0.6666" complexity="9">
+          <methods>
+            <method name="get_BucketCount" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Index" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="18" branch="False" />
+              </lines>
+            </method>
+            <method name="AddSample" signature="(System.Int64)" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="26" hits="6036" branch="False" />
+                <line number="28" hits="6036" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="24" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="0" branch="False" />
+                <line number="33" hits="6036" branch="False" />
+                <line number="34" hits="6036" branch="False" />
+                <line number="35" hits="6036" branch="False" />
+              </lines>
+            </method>
+            <method name="Advance" signature="()" line-rate="0.8571" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="39" hits="2" branch="False" />
+                <line number="41" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="24" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="43" hits="0" branch="False" />
+                <line number="46" hits="2" branch="False" />
+                <line number="47" hits="2" branch="False" />
+                <line number="48" hits="2" branch="False" />
+                <line number="49" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="SnapshotBuckets" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="53" hits="18" branch="False" />
+                <line number="55" hits="18" branch="False" />
+                <line number="56" hits="18" branch="False" />
+                <line number="57" hits="18" branch="False" />
+                <line number="59" hits="18" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="8" hits="27" branch="False" />
+                <line number="11" hits="27" branch="False" />
+                <line number="13" hits="27" branch="False" />
+                <line number="14" hits="2932" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="63" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="1439" branch="False" />
+                <line number="18" hits="27" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="0" branch="False" />
+            <line number="22" hits="18" branch="False" />
+            <line number="26" hits="6036" branch="False" />
+            <line number="28" hits="6036" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="24" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="30" hits="0" branch="False" />
+            <line number="33" hits="6036" branch="False" />
+            <line number="34" hits="6036" branch="False" />
+            <line number="35" hits="6036" branch="False" />
+            <line number="39" hits="2" branch="False" />
+            <line number="41" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="24" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="43" hits="0" branch="False" />
+            <line number="46" hits="2" branch="False" />
+            <line number="47" hits="2" branch="False" />
+            <line number="48" hits="2" branch="False" />
+            <line number="49" hits="2" branch="False" />
+            <line number="53" hits="18" branch="False" />
+            <line number="55" hits="18" branch="False" />
+            <line number="56" hits="18" branch="False" />
+            <line number="57" hits="18" branch="False" />
+            <line number="59" hits="18" branch="False" />
+            <line number="8" hits="27" branch="False" />
+            <line number="11" hits="27" branch="False" />
+            <line number="13" hits="27" branch="False" />
+            <line number="14" hits="2932" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="63" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="16" hits="1439" branch="False" />
+            <line number="18" hits="27" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.OperationMetrics" filename="Internal\OperationMetrics.cs" line-rate="0.9565" branch-rate="1" complexity="18">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="RecordStart" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="29" hits="2015" branch="False" />
+                <line number="30" hits="2015" branch="False" />
+                <line number="31" hits="2015" branch="False" />
+                <line number="34" hits="2015" branch="False" />
+                <line number="35" hits="2015" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="40" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="40" hits="12" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="56" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="46" hits="2015" branch="False" />
+              </lines>
+            </method>
+            <method name="RecordCompletion" signature="(System.Int64,System.Boolean,System.Boolean)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="51" hits="2015" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="1" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="53" hits="2" branch="False" />
+                <line number="56" hits="2015" branch="False" />
+                <line number="58" hits="2015" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="28" type="jump" coverage="100%" />
+                    <condition number="33" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="60" hits="3" branch="False" />
+                <line number="63" hits="2012" branch="False" />
+                <line number="64" hits="2012" branch="False" />
+                <line number="65" hits="2012" branch="False" />
+                <line number="66" hits="2012" branch="False" />
+              </lines>
+            </method>
+            <method name="ShouldCaptureSample" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="71" hits="2015" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="2" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="73" hits="2010" branch="False" />
+                <line number="76" hits="5" branch="False" />
+                <line number="77" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="AdvanceHot" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="80" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="AdvanceWarm" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="82" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="AdvanceCold" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="84" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="CaptureSnapshot" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="88" hits="6" branch="False" />
+                <line number="89" hits="6" branch="False" />
+                <line number="90" hits="6" branch="False" />
+                <line number="91" hits="6" branch="False" />
+                <line number="93" hits="6" branch="False" />
+                <line number="94" hits="6" branch="False" />
+                <line number="95" hits="6" branch="False" />
+                <line number="96" hits="6" branch="False" />
+                <line number="97" hits="6" branch="False" />
+                <line number="98" hits="6" branch="False" />
+                <line number="99" hits="6" branch="False" />
+                <line number="100" hits="6" branch="False" />
+                <line number="101" hits="6" branch="False" />
+                <line number="102" hits="6" branch="False" />
+                <line number="103" hits="6" branch="False" />
+                <line number="104" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,KoreForge.Metrics.MonitoringOptions)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="9" branch="False" />
+                <line number="19" hits="9" branch="False" />
+                <line number="20" hits="9" branch="False" />
+                <line number="21" hits="9" branch="False" />
+                <line number="22" hits="9" branch="False" />
+                <line number="23" hits="9" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="6" branch="False" />
+            <line number="29" hits="2015" branch="False" />
+            <line number="30" hits="2015" branch="False" />
+            <line number="31" hits="2015" branch="False" />
+            <line number="34" hits="2015" branch="False" />
+            <line number="35" hits="2015" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="40" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="40" hits="12" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="56" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="46" hits="2015" branch="False" />
+            <line number="51" hits="2015" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="1" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="53" hits="2" branch="False" />
+            <line number="56" hits="2015" branch="False" />
+            <line number="58" hits="2015" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="28" type="jump" coverage="100%" />
+                <condition number="33" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="60" hits="3" branch="False" />
+            <line number="63" hits="2012" branch="False" />
+            <line number="64" hits="2012" branch="False" />
+            <line number="65" hits="2012" branch="False" />
+            <line number="66" hits="2012" branch="False" />
+            <line number="71" hits="2015" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="2" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="73" hits="2010" branch="False" />
+            <line number="76" hits="5" branch="False" />
+            <line number="77" hits="5" branch="False" />
+            <line number="80" hits="2" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="84" hits="0" branch="False" />
+            <line number="88" hits="6" branch="False" />
+            <line number="89" hits="6" branch="False" />
+            <line number="90" hits="6" branch="False" />
+            <line number="91" hits="6" branch="False" />
+            <line number="93" hits="6" branch="False" />
+            <line number="94" hits="6" branch="False" />
+            <line number="95" hits="6" branch="False" />
+            <line number="96" hits="6" branch="False" />
+            <line number="97" hits="6" branch="False" />
+            <line number="98" hits="6" branch="False" />
+            <line number="99" hits="6" branch="False" />
+            <line number="100" hits="6" branch="False" />
+            <line number="101" hits="6" branch="False" />
+            <line number="102" hits="6" branch="False" />
+            <line number="103" hits="6" branch="False" />
+            <line number="104" hits="6" branch="False" />
+            <line number="17" hits="9" branch="False" />
+            <line number="19" hits="9" branch="False" />
+            <line number="20" hits="9" branch="False" />
+            <line number="21" hits="9" branch="False" />
+            <line number="22" hits="9" branch="False" />
+            <line number="23" hits="9" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.OperationMetricsSnapshotData" filename="Internal\OperationMetricsSnapshotData.cs" line-rate="0.9166" branch-rate="1" complexity="12">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="10" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TotalCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TotalFailures" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CurrentInFlight" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PeakInFlight" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_HotBuckets" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="get_HotBucketIndex" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_WarmBuckets" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="get_WarmBucketIndex" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ColdBuckets" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ColdBucketIndex" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="14" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Int64,System.Int64,System.Int32,System.Int32,KoreForge.Metrics.MetricsBucket[],System.Int32,KoreForge.Metrics.MetricsBucket[],System.Int32,KoreForge.Metrics.MetricsBucket[],System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="9" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="10" branch="False" />
+            <line number="5" hits="8" branch="False" />
+            <line number="6" hits="5" branch="False" />
+            <line number="7" hits="6" branch="False" />
+            <line number="8" hits="6" branch="False" />
+            <line number="9" hits="5" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="5" branch="False" />
+            <line number="12" hits="5" branch="False" />
+            <line number="13" hits="5" branch="False" />
+            <line number="14" hits="14" branch="False" />
+            <line number="3" hits="9" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.MonitoringEngine" filename="MonitoringEngine.cs" line-rate="0.9895" branch-rate="0.8665999999999999" complexity="39">
+          <methods>
+            <method name="get_CurrentOptions" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DroppedEvents" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CaptureSnapshots" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="6" branch="False" />
+                <line number="50" hits="6" branch="False" />
+                <line number="51" hits="6" branch="False" />
+                <line number="53" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="KoreForge.Metrics.IMonitoringDataSource.CaptureSnapshots" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="56" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="GetOrCreateMetrics" signature="(System.String)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="60" hits="2016" branch="False" />
+                <line number="61" hits="2016" branch="False" />
+                <line number="63" hits="2016" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="38" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="65" hits="2006" branch="False" />
+                <line number="68" hits="10" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="62" type="jump" coverage="100%" />
+                    <condition number="70" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="70" hits="1" branch="False" />
+                <line number="73" hits="9" branch="False" />
+                <line number="74" hits="9" branch="False" />
+                <line number="75" hits="9" branch="False" />
+                <line number="77" hits="2016" branch="False" />
+              </lines>
+            </method>
+            <method name="TryGetMetrics" signature="(System.String)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="81" hits="2" branch="False" />
+                <line number="83" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="31" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="85" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="TryGetCpuPercent" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="87" hits="2012" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="PublishEvent" signature="(KoreForge.Metrics.OperationCompletedContext)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="89" hits="2012" branch="False" />
+              </lines>
+            </method>
+            <method name="Dispose" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="93" hits="12" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="95" hits="1" branch="False" />
+                <line number="98" hits="11" branch="False" />
+                <line number="99" hits="11" branch="False" />
+                <line number="100" hits="11" branch="False" />
+                <line number="101" hits="11" branch="False" />
+                <line number="102" hits="11" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="51" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="103" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="ApplyOptions" signature="(KoreForge.Metrics.MonitoringOptions)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="107" hits="11" branch="False" />
+                <line number="108" hits="11" branch="False" />
+                <line number="109" hits="11" branch="False" />
+                <line number="110" hits="11" branch="False" />
+                <line number="111" hits="11" branch="False" />
+                <line number="112" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="ConfigureCpuSampler" signature="(KoreForge.Metrics.MonitoringOptions)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="116" hits="11" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="117" hits="11" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="24" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="118" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="RestartTimers" signature="(KoreForge.Metrics.MonitoringOptions)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="122" hits="11" branch="False" />
+                <line number="123" hits="13" branch="False" />
+                <line number="124" hits="11" branch="False" />
+                <line number="125" hits="11" branch="False" />
+                <line number="126" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="StopTimers" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="130" hits="22" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="131" hits="22" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="24" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="132" hits="22" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="41" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="133" hits="22" branch="False" />
+                <line number="134" hits="22" branch="False" />
+                <line number="135" hits="22" branch="False" />
+                <line number="136" hits="22" branch="False" />
+              </lines>
+            </method>
+            <method name="AdvanceAll" signature="(System.Action`1&lt;KoreForge.Metrics.OperationMetrics&gt;)" line-rate="0.8332999999999999" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="141" hits="2" branch="False" />
+                <line number="143" hits="2" branch="False" />
+                <line number="144" hits="2" branch="False" />
+                <line number="146" hits="4" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="78" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="148" hits="0" branch="False" />
+                <line number="150" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="CloneOptions" signature="(KoreForge.Metrics.MonitoringOptions)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="154" hits="11" branch="False" />
+                <line number="155" hits="11" branch="False" />
+                <line number="156" hits="11" branch="False" />
+                <line number="157" hits="11" branch="False" />
+                <line number="158" hits="11" branch="False" />
+                <line number="159" hits="11" branch="False" />
+                <line number="160" hits="11" branch="False" />
+                <line number="161" hits="11" branch="False" />
+                <line number="162" hits="11" branch="False" />
+                <line number="163" hits="11" branch="False" />
+                <line number="164" hits="11" branch="False" />
+                <line number="165" hits="11" branch="False" />
+                <line number="166" hits="11" branch="False" />
+                <line number="167" hits="11" branch="False" />
+                <line number="168" hits="11" branch="False" />
+                <line number="169" hits="11" branch="False" />
+                <line number="170" hits="11" branch="False" />
+                <line number="171" hits="11" branch="False" />
+                <line number="172" hits="11" branch="False" />
+                <line number="173" hits="11" branch="False" />
+                <line number="174" hits="11" branch="False" />
+                <line number="175" hits="11" branch="False" />
+                <line number="176" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;.ctor&gt;b__12_0" signature="(KoreForge.Metrics.MonitoringOptions)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.Extensions.Options.IOptionsMonitor`1&lt;KoreForge.Metrics.MonitoringOptions&gt;,System.Collections.Generic.IEnumerable`1&lt;KoreForge.Metrics.IOperationEventSink&gt;,System.TimeProvider)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="13" hits="11" branch="False" />
+                <line number="14" hits="11" branch="False" />
+                <line number="24" hits="11" branch="False" />
+                <line number="25" hits="11" branch="False" />
+                <line number="26" hits="11" branch="False" />
+                <line number="27" hits="11" branch="False" />
+                <line number="29" hits="11" branch="False" />
+                <line number="30" hits="11" branch="False" />
+                <line number="32" hits="11" branch="False" />
+                <line number="33" hits="11" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="65" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="34" hits="11" branch="False" />
+                <line number="36" hits="11" branch="False" />
+                <line number="37" hits="11" branch="False" />
+                <line number="38" hits="11" branch="False" />
+                <line number="39" hits="11" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="41" hits="4" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="48" hits="6" branch="False" />
+            <line number="50" hits="6" branch="False" />
+            <line number="51" hits="6" branch="False" />
+            <line number="53" hits="11" branch="False" />
+            <line number="56" hits="4" branch="False" />
+            <line number="60" hits="2016" branch="False" />
+            <line number="61" hits="2016" branch="False" />
+            <line number="63" hits="2016" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="38" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="65" hits="2006" branch="False" />
+            <line number="68" hits="10" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="62" type="jump" coverage="100%" />
+                <condition number="70" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="70" hits="1" branch="False" />
+            <line number="73" hits="9" branch="False" />
+            <line number="74" hits="9" branch="False" />
+            <line number="75" hits="9" branch="False" />
+            <line number="77" hits="2016" branch="False" />
+            <line number="81" hits="2" branch="False" />
+            <line number="83" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="31" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="85" hits="2" branch="False" />
+            <line number="87" hits="2012" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="89" hits="2012" branch="False" />
+            <line number="93" hits="12" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="6" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="95" hits="1" branch="False" />
+            <line number="98" hits="11" branch="False" />
+            <line number="99" hits="11" branch="False" />
+            <line number="100" hits="11" branch="False" />
+            <line number="101" hits="11" branch="False" />
+            <line number="102" hits="11" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="51" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="103" hits="1" branch="False" />
+            <line number="107" hits="11" branch="False" />
+            <line number="108" hits="11" branch="False" />
+            <line number="109" hits="11" branch="False" />
+            <line number="110" hits="11" branch="False" />
+            <line number="111" hits="11" branch="False" />
+            <line number="112" hits="11" branch="False" />
+            <line number="116" hits="11" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="117" hits="11" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="24" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="118" hits="11" branch="False" />
+            <line number="122" hits="11" branch="False" />
+            <line number="123" hits="13" branch="False" />
+            <line number="124" hits="11" branch="False" />
+            <line number="125" hits="11" branch="False" />
+            <line number="126" hits="11" branch="False" />
+            <line number="130" hits="22" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="131" hits="22" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="24" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="132" hits="22" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="41" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="133" hits="22" branch="False" />
+            <line number="134" hits="22" branch="False" />
+            <line number="135" hits="22" branch="False" />
+            <line number="136" hits="22" branch="False" />
+            <line number="141" hits="2" branch="False" />
+            <line number="143" hits="2" branch="False" />
+            <line number="144" hits="2" branch="False" />
+            <line number="146" hits="4" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="78" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="148" hits="0" branch="False" />
+            <line number="150" hits="2" branch="False" />
+            <line number="154" hits="11" branch="False" />
+            <line number="155" hits="11" branch="False" />
+            <line number="156" hits="11" branch="False" />
+            <line number="157" hits="11" branch="False" />
+            <line number="158" hits="11" branch="False" />
+            <line number="159" hits="11" branch="False" />
+            <line number="160" hits="11" branch="False" />
+            <line number="161" hits="11" branch="False" />
+            <line number="162" hits="11" branch="False" />
+            <line number="163" hits="11" branch="False" />
+            <line number="164" hits="11" branch="False" />
+            <line number="165" hits="11" branch="False" />
+            <line number="166" hits="11" branch="False" />
+            <line number="167" hits="11" branch="False" />
+            <line number="168" hits="11" branch="False" />
+            <line number="169" hits="11" branch="False" />
+            <line number="170" hits="11" branch="False" />
+            <line number="171" hits="11" branch="False" />
+            <line number="172" hits="11" branch="False" />
+            <line number="173" hits="11" branch="False" />
+            <line number="174" hits="11" branch="False" />
+            <line number="175" hits="11" branch="False" />
+            <line number="176" hits="11" branch="False" />
+            <line number="35" hits="11" branch="False" />
+            <line number="13" hits="11" branch="False" />
+            <line number="14" hits="11" branch="False" />
+            <line number="24" hits="11" branch="False" />
+            <line number="25" hits="11" branch="False" />
+            <line number="26" hits="11" branch="False" />
+            <line number="27" hits="11" branch="False" />
+            <line number="29" hits="11" branch="False" />
+            <line number="30" hits="11" branch="False" />
+            <line number="32" hits="11" branch="False" />
+            <line number="33" hits="11" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="65" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="34" hits="11" branch="False" />
+            <line number="36" hits="11" branch="False" />
+            <line number="37" hits="11" branch="False" />
+            <line number="38" hits="11" branch="False" />
+            <line number="39" hits="11" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.MonitoringOptions" filename="MonitoringOptions.cs" line-rate="1" branch-rate="1" complexity="23">
+          <methods>
+            <method name="get_TimeMode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="22" branch="False" />
+              </lines>
+            </method>
+            <method name="get_HotBucketCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="81" branch="False" />
+              </lines>
+            </method>
+            <method name="get_HotBucketSeconds" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="92" branch="False" />
+              </lines>
+            </method>
+            <method name="get_WarmBucketCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="74" branch="False" />
+              </lines>
+            </method>
+            <method name="get_WarmBucketMinutes" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="90" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ColdBucketCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="74" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ColdBucketHours" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="90" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SamplingRate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="2077" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EnableCpuMeasurement" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="35" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CpuSampleIntervalSeconds" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="63" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CpuSampleHistoryCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="62" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxOperationCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="74" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OverflowPolicy" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="24" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxTagsPerOperation" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="66" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxTagKeyLength" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="63" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxTagValueLength" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="63" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EventDispatchMode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="83" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EventQueueCapacity" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="64" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EventDropPolicy" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="23" branch="False" />
+              </lines>
+            </method>
+            <method name="get_EventDropLogThrottleSeconds" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="61" branch="False" />
+              </lines>
+            </method>
+            <method name="Validate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="13" branch="False" />
+                <line number="39" hits="12" branch="False" />
+                <line number="40" hits="12" branch="False" />
+                <line number="41" hits="12" branch="False" />
+                <line number="42" hits="12" branch="False" />
+                <line number="43" hits="12" branch="False" />
+                <line number="44" hits="12" branch="False" />
+                <line number="45" hits="12" branch="False" />
+                <line number="46" hits="12" branch="False" />
+                <line number="47" hits="12" branch="False" />
+                <line number="48" hits="12" branch="False" />
+                <line number="49" hits="12" branch="False" />
+                <line number="50" hits="12" branch="False" />
+                <line number="51" hits="12" branch="False" />
+                <line number="52" hits="12" branch="False" />
+                <line number="53" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="EnsurePositive" signature="(System.Int32,System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="57" hits="181" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="2" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="59" hits="1" branch="False" />
+                <line number="61" hits="180" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="22" branch="False" />
+            <line number="9" hits="81" branch="False" />
+            <line number="10" hits="92" branch="False" />
+            <line number="12" hits="74" branch="False" />
+            <line number="13" hits="90" branch="False" />
+            <line number="15" hits="74" branch="False" />
+            <line number="16" hits="90" branch="False" />
+            <line number="18" hits="2077" branch="False" />
+            <line number="20" hits="35" branch="False" />
+            <line number="21" hits="63" branch="False" />
+            <line number="22" hits="62" branch="False" />
+            <line number="24" hits="74" branch="False" />
+            <line number="25" hits="24" branch="False" />
+            <line number="27" hits="66" branch="False" />
+            <line number="28" hits="63" branch="False" />
+            <line number="29" hits="63" branch="False" />
+            <line number="31" hits="83" branch="False" />
+            <line number="32" hits="64" branch="False" />
+            <line number="33" hits="23" branch="False" />
+            <line number="34" hits="61" branch="False" />
+            <line number="38" hits="13" branch="False" />
+            <line number="39" hits="12" branch="False" />
+            <line number="40" hits="12" branch="False" />
+            <line number="41" hits="12" branch="False" />
+            <line number="42" hits="12" branch="False" />
+            <line number="43" hits="12" branch="False" />
+            <line number="44" hits="12" branch="False" />
+            <line number="45" hits="12" branch="False" />
+            <line number="46" hits="12" branch="False" />
+            <line number="47" hits="12" branch="False" />
+            <line number="48" hits="12" branch="False" />
+            <line number="49" hits="12" branch="False" />
+            <line number="50" hits="12" branch="False" />
+            <line number="51" hits="12" branch="False" />
+            <line number="52" hits="12" branch="False" />
+            <line number="53" hits="12" branch="False" />
+            <line number="57" hits="181" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="2" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="59" hits="1" branch="False" />
+            <line number="61" hits="180" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.MonitoringSnapshot" filename="MonitoringSnapshot.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_GeneratedAt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Operations" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.DateTimeOffset,System.Collections.Generic.IReadOnlyList`1&lt;KoreForge.Metrics.OperationSnapshot&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="5" branch="False" />
+                <line number="10" hits="5" branch="False" />
+                <line number="11" hits="5" branch="False" />
+                <line number="12" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="2" branch="False" />
+            <line number="16" hits="4" branch="False" />
+            <line number="8" hits="5" branch="False" />
+            <line number="10" hits="5" branch="False" />
+            <line number="11" hits="5" branch="False" />
+            <line number="12" hits="5" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.OperationSnapshot" filename="MonitoringSnapshot.cs" line-rate="0.9375" branch-rate="1" complexity="11">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TotalCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TotalFailures" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CurrentInFlight" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="51" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PeakInFlight" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="53" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CurrentRatePerSecond" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CurrentAverageDuration" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CurrentMaxDuration" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="59" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PerMinute" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="61" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PerHour" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="63" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Int64,System.Int64,System.Int32,System.Int32,System.Double,System.TimeSpan,System.TimeSpan,System.Collections.Generic.IReadOnlyList`1&lt;KoreForge.Metrics.TimeSeriesPoint&gt;,System.Collections.Generic.IReadOnlyList`1&lt;KoreForge.Metrics.TimeSeriesPoint&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="5" branch="False" />
+                <line number="22" hits="5" branch="False" />
+                <line number="23" hits="5" branch="False" />
+                <line number="24" hits="5" branch="False" />
+                <line number="25" hits="5" branch="False" />
+                <line number="26" hits="5" branch="False" />
+                <line number="27" hits="5" branch="False" />
+                <line number="28" hits="5" branch="False" />
+                <line number="29" hits="5" branch="False" />
+                <line number="30" hits="5" branch="False" />
+                <line number="31" hits="5" branch="False" />
+                <line number="33" hits="5" branch="False" />
+                <line number="34" hits="5" branch="False" />
+                <line number="35" hits="5" branch="False" />
+                <line number="36" hits="5" branch="False" />
+                <line number="37" hits="5" branch="False" />
+                <line number="38" hits="5" branch="False" />
+                <line number="39" hits="5" branch="False" />
+                <line number="40" hits="5" branch="False" />
+                <line number="41" hits="5" branch="False" />
+                <line number="42" hits="5" branch="False" />
+                <line number="43" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="45" hits="2" branch="False" />
+            <line number="47" hits="3" branch="False" />
+            <line number="49" hits="2" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="55" hits="3" branch="False" />
+            <line number="57" hits="3" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="61" hits="4" branch="False" />
+            <line number="63" hits="3" branch="False" />
+            <line number="21" hits="5" branch="False" />
+            <line number="22" hits="5" branch="False" />
+            <line number="23" hits="5" branch="False" />
+            <line number="24" hits="5" branch="False" />
+            <line number="25" hits="5" branch="False" />
+            <line number="26" hits="5" branch="False" />
+            <line number="27" hits="5" branch="False" />
+            <line number="28" hits="5" branch="False" />
+            <line number="29" hits="5" branch="False" />
+            <line number="30" hits="5" branch="False" />
+            <line number="31" hits="5" branch="False" />
+            <line number="33" hits="5" branch="False" />
+            <line number="34" hits="5" branch="False" />
+            <line number="35" hits="5" branch="False" />
+            <line number="36" hits="5" branch="False" />
+            <line number="37" hits="5" branch="False" />
+            <line number="38" hits="5" branch="False" />
+            <line number="39" hits="5" branch="False" />
+            <line number="40" hits="5" branch="False" />
+            <line number="41" hits="5" branch="False" />
+            <line number="42" hits="5" branch="False" />
+            <line number="43" hits="5" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.TimeSeriesPoint" filename="MonitoringSnapshot.cs" line-rate="0.7777" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_Timestamp" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="76" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Count" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="78" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AverageDuration" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="80" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxDuration" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="82" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.DateTimeOffset,System.Int64,System.TimeSpan,System.TimeSpan)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="15" branch="False" />
+                <line number="71" hits="15" branch="False" />
+                <line number="72" hits="15" branch="False" />
+                <line number="73" hits="15" branch="False" />
+                <line number="74" hits="15" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="76" hits="2" branch="False" />
+            <line number="78" hits="1" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="70" hits="15" branch="False" />
+            <line number="71" hits="15" branch="False" />
+            <line number="72" hits="15" branch="False" />
+            <line number="73" hits="15" branch="False" />
+            <line number="74" hits="15" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.MonitoringSnapshotProvider" filename="MonitoringSnapshotProvider.cs" line-rate="0.9620000000000001" branch-rate="0.8076000000000001" complexity="28">
+          <methods>
+            <method name="GetSnapshot" signature="()" line-rate="0.875" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="5" branch="False" />
+                <line number="21" hits="5" branch="False" />
+                <line number="22" hits="5" branch="False" />
+                <line number="23" hits="5" branch="False" />
+                <line number="24" hits="4" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="5" branch="False" />
+                <line number="28" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="GetOperationSnapshot" signature="(System.String)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="33" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="24" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="35" hits="1" branch="False" />
+                <line number="38" hits="2" branch="False" />
+                <line number="39" hits="2" branch="False" />
+                <line number="40" hits="6" branch="False" />
+                <line number="42" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="58" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="44" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="CreateOperationSnapshot" signature="(KoreForge.Metrics.OperationMetricsSnapshotData,KoreForge.Metrics.MonitoringOptions,System.DateTimeOffset)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="5" branch="False" />
+                <line number="56" hits="5" branch="False" />
+                <line number="57" hits="5" branch="False" />
+                <line number="58" hits="5" branch="False" />
+                <line number="59" hits="5" branch="False" />
+                <line number="60" hits="5" branch="False" />
+                <line number="61" hits="5" branch="False" />
+                <line number="62" hits="5" branch="False" />
+                <line number="63" hits="5" branch="False" />
+                <line number="64" hits="5" branch="False" />
+                <line number="65" hits="5" branch="False" />
+                <line number="67" hits="5" branch="False" />
+                <line number="68" hits="5" branch="False" />
+                <line number="69" hits="5" branch="False" />
+                <line number="70" hits="5" branch="False" />
+                <line number="71" hits="5" branch="False" />
+                <line number="72" hits="5" branch="False" />
+                <line number="73" hits="5" branch="False" />
+                <line number="74" hits="5" branch="False" />
+                <line number="75" hits="5" branch="False" />
+                <line number="76" hits="5" branch="False" />
+                <line number="77" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="AggregateHotBuckets" signature="(System.Collections.Generic.IReadOnlyList`1&lt;KoreForge.Metrics.MetricsBucket&gt;)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="82" hits="5" branch="False" />
+                <line number="83" hits="5" branch="False" />
+                <line number="84" hits="5" branch="False" />
+                <line number="86" hits="30" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="73" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="88" hits="10" branch="False" />
+                <line number="89" hits="10" branch="False" />
+                <line number="90" hits="10" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="56" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="92" hits="5" branch="False" />
+                <line number="96" hits="5" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="92" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="97" hits="5" branch="False" />
+                <line number="98" hits="5" branch="False" />
+                <line number="99" hits="5" branch="False" />
+                <line number="100" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="BuildSeries" signature="(System.Collections.Generic.IReadOnlyList`1&lt;KoreForge.Metrics.MetricsBucket&gt;,System.Int32,System.TimeSpan,System.DateTimeOffset)" line-rate="0.9285" branch-rate="0.6666" complexity="6">
+              <lines>
+                <line number="109" hits="10" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="50%" />
+                    <condition number="19" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="111" hits="0" branch="False" />
+                <line number="114" hits="10" branch="False" />
+                <line number="115" hits="10" branch="False" />
+                <line number="116" hits="10" branch="False" />
+                <line number="118" hits="50" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="149" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="120" hits="15" branch="False" />
+                <line number="121" hits="15" branch="False" />
+                <line number="122" hits="15" branch="False" />
+                <line number="123" hits="15" branch="False" />
+                <line number="124" hits="15" branch="False" />
+                <line number="125" hits="15" branch="False" />
+                <line number="126" hits="15" branch="False" />
+                <line number="129" hits="10" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateAverage" signature="(KoreForge.Metrics.MetricsBucket)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="134" hits="15" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="135" hits="15" branch="False" />
+                <line number="136" hits="15" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateMax" signature="(KoreForge.Metrics.MetricsBucket)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="141" hits="15" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="142" hits="15" branch="False" />
+                <line number="143" hits="15" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateRatePerSecond" signature="(System.Int64,KoreForge.Metrics.MonitoringOptions)" line-rate="0.75" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="148" hits="5" branch="False" />
+                <line number="149" hits="5" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="19" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="151" hits="0" branch="False" />
+                <line number="154" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(KoreForge.Metrics.IMonitoringDataSource,System.TimeProvider)" line-rate="1" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="12" hits="6" branch="False" />
+                <line number="14" hits="6" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="15" hits="6" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="31" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="5" branch="False" />
+            <line number="21" hits="5" branch="False" />
+            <line number="22" hits="5" branch="False" />
+            <line number="23" hits="5" branch="False" />
+            <line number="24" hits="4" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="5" branch="False" />
+            <line number="28" hits="5" branch="False" />
+            <line number="33" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="24" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="35" hits="1" branch="False" />
+            <line number="38" hits="2" branch="False" />
+            <line number="39" hits="2" branch="False" />
+            <line number="40" hits="6" branch="False" />
+            <line number="42" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="58" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="44" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="55" hits="5" branch="False" />
+            <line number="56" hits="5" branch="False" />
+            <line number="57" hits="5" branch="False" />
+            <line number="58" hits="5" branch="False" />
+            <line number="59" hits="5" branch="False" />
+            <line number="60" hits="5" branch="False" />
+            <line number="61" hits="5" branch="False" />
+            <line number="62" hits="5" branch="False" />
+            <line number="63" hits="5" branch="False" />
+            <line number="64" hits="5" branch="False" />
+            <line number="65" hits="5" branch="False" />
+            <line number="67" hits="5" branch="False" />
+            <line number="68" hits="5" branch="False" />
+            <line number="69" hits="5" branch="False" />
+            <line number="70" hits="5" branch="False" />
+            <line number="71" hits="5" branch="False" />
+            <line number="72" hits="5" branch="False" />
+            <line number="73" hits="5" branch="False" />
+            <line number="74" hits="5" branch="False" />
+            <line number="75" hits="5" branch="False" />
+            <line number="76" hits="5" branch="False" />
+            <line number="77" hits="5" branch="False" />
+            <line number="82" hits="5" branch="False" />
+            <line number="83" hits="5" branch="False" />
+            <line number="84" hits="5" branch="False" />
+            <line number="86" hits="30" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="73" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="88" hits="10" branch="False" />
+            <line number="89" hits="10" branch="False" />
+            <line number="90" hits="10" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="56" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="92" hits="5" branch="False" />
+            <line number="96" hits="5" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="92" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="97" hits="5" branch="False" />
+            <line number="98" hits="5" branch="False" />
+            <line number="99" hits="5" branch="False" />
+            <line number="100" hits="5" branch="False" />
+            <line number="109" hits="10" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="6" type="jump" coverage="50%" />
+                <condition number="19" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="111" hits="0" branch="False" />
+            <line number="114" hits="10" branch="False" />
+            <line number="115" hits="10" branch="False" />
+            <line number="116" hits="10" branch="False" />
+            <line number="118" hits="50" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="149" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="120" hits="15" branch="False" />
+            <line number="121" hits="15" branch="False" />
+            <line number="122" hits="15" branch="False" />
+            <line number="123" hits="15" branch="False" />
+            <line number="124" hits="15" branch="False" />
+            <line number="125" hits="15" branch="False" />
+            <line number="126" hits="15" branch="False" />
+            <line number="129" hits="10" branch="False" />
+            <line number="134" hits="15" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="135" hits="15" branch="False" />
+            <line number="136" hits="15" branch="False" />
+            <line number="141" hits="15" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="142" hits="15" branch="False" />
+            <line number="143" hits="15" branch="False" />
+            <line number="148" hits="5" branch="False" />
+            <line number="149" hits="5" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="19" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="151" hits="0" branch="False" />
+            <line number="154" hits="5" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="14" hits="6" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="15" hits="6" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="31" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="16" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.OperationMonitor" filename="OperationMonitor.cs" line-rate="0.9459000000000001" branch-rate="0.8181" complexity="23">
+          <methods>
+            <method name="Begin" signature="(System.String,KoreForge.Metrics.OperationTags)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="22" hits="2016" branch="False" />
+                <line number="23" hits="2016" branch="False" />
+                <line number="24" hits="2016" branch="False" />
+                <line number="25" hits="2016" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="37" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="1" branch="False" />
+                <line number="30" hits="2015" branch="False" />
+                <line number="31" hits="2015" branch="False" />
+                <line number="32" hits="2015" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="66" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="2015" branch="False" />
+                <line number="34" hits="2015" branch="False" />
+                <line number="35" hits="2015" branch="False" />
+                <line number="36" hits="2015" branch="False" />
+                <line number="37" hits="2015" branch="False" />
+                <line number="38" hits="2015" branch="False" />
+                <line number="39" hits="2015" branch="False" />
+                <line number="40" hits="2015" branch="False" />
+              </lines>
+            </method>
+            <method name="SanitizeTags" signature="(KoreForge.Metrics.OperationTags,KoreForge.Metrics.MonitoringOptions)" line-rate="1" branch-rate="0.8571" complexity="14">
+              <lines>
+                <line number="45" hits="2012" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="1" type="jump" coverage="100%" />
+                    <condition number="9" type="jump" coverage="100%" />
+                    <condition number="18" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="47" hits="2011" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="5" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="133" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="53" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="67" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="55" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="96" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="68" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="153" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="Truncate" signature="(System.String,System.Int32)" line-rate="0.6" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="73" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="75" hits="0" branch="False" />
+                <line number="78" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="21" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="80" hits="0" branch="False" />
+                <line number="83" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(KoreForge.Metrics.MonitoringEngine,System.TimeProvider,Microsoft.Extensions.Options.IOptionsMonitor`1&lt;KoreForge.Metrics.MonitoringOptions&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="10" branch="False" />
+                <line number="15" hits="10" branch="False" />
+                <line number="16" hits="10" branch="False" />
+                <line number="17" hits="10" branch="False" />
+                <line number="18" hits="10" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="2016" branch="False" />
+            <line number="23" hits="2016" branch="False" />
+            <line number="24" hits="2016" branch="False" />
+            <line number="25" hits="2016" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="37" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="27" hits="1" branch="False" />
+            <line number="30" hits="2015" branch="False" />
+            <line number="31" hits="2015" branch="False" />
+            <line number="32" hits="2015" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="66" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="33" hits="2015" branch="False" />
+            <line number="34" hits="2015" branch="False" />
+            <line number="35" hits="2015" branch="False" />
+            <line number="36" hits="2015" branch="False" />
+            <line number="37" hits="2015" branch="False" />
+            <line number="38" hits="2015" branch="False" />
+            <line number="39" hits="2015" branch="False" />
+            <line number="40" hits="2015" branch="False" />
+            <line number="45" hits="2012" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="1" type="jump" coverage="100%" />
+                <condition number="9" type="jump" coverage="100%" />
+                <condition number="18" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="47" hits="2011" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="5" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="133" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="53" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="67" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="55" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="96" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="68" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="153" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="73" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="6" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="75" hits="0" branch="False" />
+            <line number="78" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="21" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="80" hits="0" branch="False" />
+            <line number="83" hits="2" branch="False" />
+            <line number="13" hits="10" branch="False" />
+            <line number="15" hits="10" branch="False" />
+            <line number="16" hits="10" branch="False" />
+            <line number="17" hits="10" branch="False" />
+            <line number="18" hits="10" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.OperationScope" filename="OperationMonitor.cs" line-rate="0.96" branch-rate="0.75" complexity="15">
+          <methods>
+            <method name="CreateNoop" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="127" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="MarkFailed" signature="()" line-rate="0.75" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="131" hits="2" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="50%" />
+                    <condition number="14" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="133" hits="0" branch="False" />
+                <line number="136" hits="2" branch="False" />
+                <line number="137" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="Dispose" signature="()" line-rate="0.9523" branch-rate="0.875" complexity="8">
+              <lines>
+                <line number="141" hits="2016" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="143" hits="0" branch="False" />
+                <line number="146" hits="2016" branch="False" />
+                <line number="147" hits="2016" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="22" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="149" hits="1" branch="False" />
+                <line number="152" hits="2015" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="31" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="153" hits="2015" branch="False" />
+                <line number="155" hits="2015" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="94" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="157" hits="3" branch="False" />
+                <line number="160" hits="2012" branch="False" />
+                <line number="161" hits="2012" branch="False" />
+                <line number="162" hits="2012" branch="False" />
+                <line number="163" hits="2012" branch="False" />
+                <line number="164" hits="2012" branch="False" />
+                <line number="165" hits="2012" branch="False" />
+                <line number="166" hits="2012" branch="False" />
+                <line number="167" hits="2012" branch="False" />
+                <line number="168" hits="2012" branch="False" />
+                <line number="169" hits="2012" branch="False" />
+                <line number="171" hits="2012" branch="False" />
+                <line number="172" hits="2012" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(KoreForge.Metrics.OperationMetrics,KoreForge.Metrics.MonitoringEngine,System.TimeProvider,System.String,System.Collections.Generic.IReadOnlyDictionary`2&lt;System.String,System.String&gt;,System.Boolean,System.Int64)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="99" hits="2015" branch="False" />
+                <line number="100" hits="2015" branch="False" />
+                <line number="101" hits="2015" branch="False" />
+                <line number="102" hits="2015" branch="False" />
+                <line number="103" hits="2015" branch="False" />
+                <line number="104" hits="2015" branch="False" />
+                <line number="105" hits="2015" branch="False" />
+                <line number="106" hits="2015" branch="False" />
+                <line number="108" hits="2015" branch="False" />
+                <line number="109" hits="2015" branch="False" />
+                <line number="110" hits="2015" branch="False" />
+                <line number="111" hits="2015" branch="False" />
+                <line number="112" hits="2015" branch="False" />
+                <line number="113" hits="2015" branch="False" />
+                <line number="114" hits="2015" branch="False" />
+                <line number="115" hits="2015" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="117" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="123" hits="1" branch="False" />
+                <line number="124" hits="1" branch="False" />
+                <line number="125" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="127" hits="1" branch="False" />
+            <line number="131" hits="2" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="6" type="jump" coverage="50%" />
+                <condition number="14" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="133" hits="0" branch="False" />
+            <line number="136" hits="2" branch="False" />
+            <line number="137" hits="2" branch="False" />
+            <line number="141" hits="2016" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="6" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="143" hits="0" branch="False" />
+            <line number="146" hits="2016" branch="False" />
+            <line number="147" hits="2016" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="22" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="149" hits="1" branch="False" />
+            <line number="152" hits="2015" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="31" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="153" hits="2015" branch="False" />
+            <line number="155" hits="2015" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="94" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="157" hits="3" branch="False" />
+            <line number="160" hits="2012" branch="False" />
+            <line number="161" hits="2012" branch="False" />
+            <line number="162" hits="2012" branch="False" />
+            <line number="163" hits="2012" branch="False" />
+            <line number="164" hits="2012" branch="False" />
+            <line number="165" hits="2012" branch="False" />
+            <line number="166" hits="2012" branch="False" />
+            <line number="167" hits="2012" branch="False" />
+            <line number="168" hits="2012" branch="False" />
+            <line number="169" hits="2012" branch="False" />
+            <line number="171" hits="2012" branch="False" />
+            <line number="172" hits="2012" branch="False" />
+            <line number="99" hits="2015" branch="False" />
+            <line number="100" hits="2015" branch="False" />
+            <line number="101" hits="2015" branch="False" />
+            <line number="102" hits="2015" branch="False" />
+            <line number="103" hits="2015" branch="False" />
+            <line number="104" hits="2015" branch="False" />
+            <line number="105" hits="2015" branch="False" />
+            <line number="106" hits="2015" branch="False" />
+            <line number="108" hits="2015" branch="False" />
+            <line number="109" hits="2015" branch="False" />
+            <line number="110" hits="2015" branch="False" />
+            <line number="111" hits="2015" branch="False" />
+            <line number="112" hits="2015" branch="False" />
+            <line number="113" hits="2015" branch="False" />
+            <line number="114" hits="2015" branch="False" />
+            <line number="115" hits="2015" branch="False" />
+            <line number="117" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="121" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="123" hits="1" branch="False" />
+            <line number="124" hits="1" branch="False" />
+            <line number="125" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.OperationTags" filename="OperationTags.cs" line-rate="0.3846" branch-rate="1" complexity="10">
+          <methods>
+            <method name="get_Count" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Keys" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Values" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Item" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="ContainsKey" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="TryGetValue" signature="(System.String,System.String&amp;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetEnumerator" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="System.Collections.IEnumerable.GetEnumerator" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="1" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.ServiceCollectionExtensions" filename="ServiceCollectionExtensions.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="AddKoreForgeMetrics" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action`1&lt;KoreForge.Metrics.MonitoringOptions&gt;)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="12" hits="3" branch="False" />
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="19" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="17" hits="1" branch="False" />
+                <line number="20" hits="5" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="4" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="25" hits="3" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="3" branch="False" />
+                <line number="31" hits="3" branch="False" />
+                <line number="32" hits="3" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="3" branch="False" />
+                <line number="38" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="3" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="19" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="17" hits="1" branch="False" />
+            <line number="20" hits="5" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="4" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="3" branch="False" />
+            <line number="31" hits="3" branch="False" />
+            <line number="32" hits="3" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="3" branch="False" />
+            <line number="38" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.StopwatchTime" filename="Time\StopwatchTime.cs" line-rate="0.8" branch-rate="1" complexity="4">
+          <methods>
+            <method name="FromTimeSpan" signature="(System.TimeSpan)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="ToTimeSpan" signature="(System.Double)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="15" hits="2047" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="10" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="17" hits="1" branch="False" />
+                <line number="20" hits="2046" branch="False" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="0" branch="False" />
+            <line number="15" hits="2047" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="10" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="17" hits="1" branch="False" />
+            <line number="20" hits="2046" branch="False" />
+            <line number="8" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.Flow.MetricTags" filename="Flow\IPipelineFlowMonitor.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Tags" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Empty" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="26" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.Flow.PipelineGraphDefinition" filename="Flow\IPipelineFlowMonitor.cs" line-rate="0" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_GraphId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Nodes" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Edges" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String,System.Collections.Generic.IReadOnlyList`1&lt;KoreForge.Metrics.Flow.PipelineNodeDefinition&gt;,System.Collections.Generic.IReadOnlyList`1&lt;KoreForge.Metrics.Flow.PipelineEdgeDefinition&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.Flow.PipelineNodeDefinition" filename="Flow\IPipelineFlowMonitor.cs" line-rate="0" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_NodeId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Kind" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="40" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ParentNodeId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DisplayOrder" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String,System.String,System.String,System.Int32)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.Flow.PipelineEdgeDefinition" filename="Flow\IPipelineFlowMonitor.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_FromNodeId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ToNodeId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String,System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.Flow.PipelineGraphSnapshot" filename="Flow\IPipelineFlowMonitor.cs" line-rate="0" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_GraphId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="50" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="51" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_GeneratedAt" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Nodes" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="53" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Edges" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="54" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String,System.DateTimeOffset,System.Collections.Generic.IReadOnlyList`1&lt;KoreForge.Metrics.Flow.PipelineNodeSnapshot&gt;,System.Collections.Generic.IReadOnlyList`1&lt;KoreForge.Metrics.Flow.PipelineEdgeSnapshot&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.Flow.PipelineNodeSnapshot" filename="Flow\IPipelineFlowMonitor.cs" line-rate="0" branch-rate="1" complexity="16">
+          <methods>
+            <method name="get_NodeId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="58" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Kind" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="59" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ParentNodeId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="60" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_InCount" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="61" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_OutCount" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="62" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FailedCount" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="63" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CurrentInFlight" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_BacklogCount" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="65" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CurrentRatePerSecond" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="66" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AverageLatencyMs" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="67" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_P50LatencyMs" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="68" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_P95LatencyMs" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="69" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_P99LatencyMs" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxLatencyMs" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="71" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String,System.String,System.String,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="56" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.Flow.PipelineEdgeSnapshot" filename="Flow\IPipelineFlowMonitor.cs" line-rate="0" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_FromNodeId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="74" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ToNodeId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="75" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="76" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TotalTransferred" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="77" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CurrentRatePerSecond" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="78" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String,System.String,System.Int64,System.Double)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="73" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.Flow.PipelineFlowMonitor" filename="Flow\PipelineFlowMonitor.cs" line-rate="0" branch-rate="0" complexity="26">
+          <methods>
+            <method name="RegisterGraph" signature="(KoreForge.Metrics.Flow.PipelineGraphDefinition)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+                <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="94" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="25" hits="0" branch="False" />
+                <line number="28" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="199" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="IncrementNodeIn" signature="(System.String,System.Int64,KoreForge.Metrics.Flow.MetricTags)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="IncrementNodeOut" signature="(System.String,System.Int64,KoreForge.Metrics.Flow.MetricTags)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="IncrementNodeFailure" signature="(System.String,System.Int64,KoreForge.Metrics.Flow.MetricTags)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="54" hits="0" branch="False" />
+                <line number="55" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="TrackNodeLatency" signature="(System.String,KoreForge.Metrics.Flow.MetricTags)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="SetNodeBacklog" signature="(System.String,System.Int64,KoreForge.Metrics.Flow.MetricTags)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="IncrementEdgeTransfer" signature="(System.String,System.String,System.Int64,KoreForge.Metrics.Flow.MetricTags)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetSnapshot" signature="(System.String)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="83" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="85" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="91" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="494" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="93" hits="0" branch="False" />
+                <line number="94" hits="0" branch="False" />
+                <line number="96" hits="0" branch="False" />
+                <line number="97" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+                <line number="99" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="104" hits="0" branch="False" />
+                <line number="105" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="299" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="107" hits="0" branch="False" />
+                <line number="108" hits="0" branch="False" />
+                <line number="109" hits="0" branch="False" />
+                <line number="110" hits="0" branch="False" />
+                <line number="111" hits="0" branch="False" />
+                <line number="112" hits="0" branch="False" />
+                <line number="115" hits="0" branch="False" />
+                <line number="116" hits="0" branch="False" />
+                <line number="117" hits="0" branch="False" />
+                <line number="118" hits="0" branch="False" />
+                <line number="119" hits="0" branch="False" />
+                <line number="120" hits="0" branch="False" />
+                <line number="121" hits="0" branch="False" />
+                <line number="122" hits="0" branch="False" />
+                <line number="123" hits="0" branch="False" />
+                <line number="124" hits="0" branch="False" />
+                <line number="125" hits="0" branch="False" />
+                <line number="126" hits="0" branch="False" />
+                <line number="127" hits="0" branch="False" />
+                <line number="128" hits="0" branch="False" />
+                <line number="129" hits="0" branch="False" />
+                <line number="130" hits="0" branch="False" />
+                <line number="133" hits="0" branch="False" />
+                <line number="134" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="680" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="136" hits="0" branch="False" />
+                <line number="137" hits="0" branch="False" />
+                <line number="138" hits="0" branch="False" />
+                <line number="139" hits="0" branch="False" />
+                <line number="141" hits="0" branch="False" />
+                <line number="142" hits="0" branch="False" />
+                <line number="143" hits="0" branch="False" />
+                <line number="144" hits="0" branch="False" />
+                <line number="145" hits="0" branch="False" />
+                <line number="146" hits="0" branch="False" />
+                <line number="149" hits="0" branch="False" />
+                <line number="150" hits="0" branch="False" />
+                <line number="151" hits="0" branch="False" />
+                <line number="152" hits="0" branch="False" />
+                <line number="153" hits="0" branch="False" />
+                <line number="154" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetGraphs" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="157" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="EdgeKey" signature="(System.String,System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="160" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Percentile" signature="(System.Collections.Generic.List`1&lt;System.Double&gt;,System.Double)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="164" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="165" hits="0" branch="False" />
+                <line number="166" hits="0" branch="False" />
+                <line number="167" hits="0" branch="False" />
+                <line number="168" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="48" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="169" hits="0" branch="False" />
+                <line number="170" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.TimeProvider)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="16" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="53" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="17" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="0" branch="False" />
+            <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="94" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="25" hits="0" branch="False" />
+            <line number="28" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="199" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="54" hits="0" branch="False" />
+            <line number="55" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="83" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="14" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="85" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="91" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="494" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="93" hits="0" branch="False" />
+            <line number="94" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="99" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="104" hits="0" branch="False" />
+            <line number="105" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="299" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="107" hits="0" branch="False" />
+            <line number="108" hits="0" branch="False" />
+            <line number="109" hits="0" branch="False" />
+            <line number="110" hits="0" branch="False" />
+            <line number="111" hits="0" branch="False" />
+            <line number="112" hits="0" branch="False" />
+            <line number="115" hits="0" branch="False" />
+            <line number="116" hits="0" branch="False" />
+            <line number="117" hits="0" branch="False" />
+            <line number="118" hits="0" branch="False" />
+            <line number="119" hits="0" branch="False" />
+            <line number="120" hits="0" branch="False" />
+            <line number="121" hits="0" branch="False" />
+            <line number="122" hits="0" branch="False" />
+            <line number="123" hits="0" branch="False" />
+            <line number="124" hits="0" branch="False" />
+            <line number="125" hits="0" branch="False" />
+            <line number="126" hits="0" branch="False" />
+            <line number="127" hits="0" branch="False" />
+            <line number="128" hits="0" branch="False" />
+            <line number="129" hits="0" branch="False" />
+            <line number="130" hits="0" branch="False" />
+            <line number="133" hits="0" branch="False" />
+            <line number="134" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="680" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="136" hits="0" branch="False" />
+            <line number="137" hits="0" branch="False" />
+            <line number="138" hits="0" branch="False" />
+            <line number="139" hits="0" branch="False" />
+            <line number="141" hits="0" branch="False" />
+            <line number="142" hits="0" branch="False" />
+            <line number="143" hits="0" branch="False" />
+            <line number="144" hits="0" branch="False" />
+            <line number="145" hits="0" branch="False" />
+            <line number="146" hits="0" branch="False" />
+            <line number="149" hits="0" branch="False" />
+            <line number="150" hits="0" branch="False" />
+            <line number="151" hits="0" branch="False" />
+            <line number="152" hits="0" branch="False" />
+            <line number="153" hits="0" branch="False" />
+            <line number="154" hits="0" branch="False" />
+            <line number="157" hits="0" branch="False" />
+            <line number="160" hits="0" branch="False" />
+            <line number="164" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="6" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="165" hits="0" branch="False" />
+            <line number="166" hits="0" branch="False" />
+            <line number="167" hits="0" branch="False" />
+            <line number="168" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="48" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="169" hits="0" branch="False" />
+            <line number="170" hits="0" branch="False" />
+            <line number="8" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="16" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="53" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="17" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.Flow.PipelineFlowMonitor/NodeMetrics" filename="Flow\PipelineFlowMonitor.cs" line-rate="0" branch-rate="0" complexity="9">
+          <methods>
+            <method name="RecordCompletion" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="189" hits="0" branch="False" />
+                <line number="190" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="RecordLatency" signature="(System.Double)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="194" hits="0" branch="False" />
+                <line number="195" hits="0" branch="False" />
+                <line number="196" hits="0" branch="False" />
+                <line number="197" hits="0" branch="False" />
+                <line number="198" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="86" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="200" hits="0" branch="False" />
+                <line number="202" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetLatencySamples" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="204" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateRate" signature="(System.DateTimeOffset)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="208" hits="0" branch="False" />
+                <line number="209" hits="0" branch="False" />
+                <line number="210" hits="0" branch="False" />
+                <line number="211" hits="0" branch="False" />
+                <line number="213" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="45" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="215" hits="0" branch="False" />
+                <line number="216" hits="0" branch="False" />
+                <line number="217" hits="0" branch="False" />
+                <line number="220" hits="0" branch="False" />
+                <line number="221" hits="0" branch="False" />
+                <line number="223" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="115" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="225" hits="0" branch="False" />
+                <line number="228" hits="0" branch="False" />
+                <line number="230" hits="0" branch="False" />
+                <line number="231" hits="0" branch="False" />
+                <line number="232" hits="0" branch="False" />
+                <line number="234" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="181" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="189" hits="0" branch="False" />
+            <line number="190" hits="0" branch="False" />
+            <line number="194" hits="0" branch="False" />
+            <line number="195" hits="0" branch="False" />
+            <line number="196" hits="0" branch="False" />
+            <line number="197" hits="0" branch="False" />
+            <line number="198" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="86" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="200" hits="0" branch="False" />
+            <line number="202" hits="0" branch="False" />
+            <line number="204" hits="0" branch="False" />
+            <line number="208" hits="0" branch="False" />
+            <line number="209" hits="0" branch="False" />
+            <line number="210" hits="0" branch="False" />
+            <line number="211" hits="0" branch="False" />
+            <line number="213" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="45" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="215" hits="0" branch="False" />
+            <line number="216" hits="0" branch="False" />
+            <line number="217" hits="0" branch="False" />
+            <line number="220" hits="0" branch="False" />
+            <line number="221" hits="0" branch="False" />
+            <line number="223" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="115" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="225" hits="0" branch="False" />
+            <line number="228" hits="0" branch="False" />
+            <line number="230" hits="0" branch="False" />
+            <line number="231" hits="0" branch="False" />
+            <line number="232" hits="0" branch="False" />
+            <line number="234" hits="0" branch="False" />
+            <line number="181" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.Flow.PipelineFlowMonitor/EdgeMetrics" filename="Flow\PipelineFlowMonitor.cs" line-rate="0" branch-rate="0" complexity="5">
+          <methods>
+            <method name="RecordTransfer" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="246" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateRate" signature="(System.DateTimeOffset)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="250" hits="0" branch="False" />
+                <line number="251" hits="0" branch="False" />
+                <line number="252" hits="0" branch="False" />
+                <line number="253" hits="0" branch="False" />
+                <line number="255" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="45" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="257" hits="0" branch="False" />
+                <line number="258" hits="0" branch="False" />
+                <line number="259" hits="0" branch="False" />
+                <line number="262" hits="0" branch="False" />
+                <line number="263" hits="0" branch="False" />
+                <line number="265" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="115" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="267" hits="0" branch="False" />
+                <line number="268" hits="0" branch="False" />
+                <line number="270" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="246" hits="0" branch="False" />
+            <line number="250" hits="0" branch="False" />
+            <line number="251" hits="0" branch="False" />
+            <line number="252" hits="0" branch="False" />
+            <line number="253" hits="0" branch="False" />
+            <line number="255" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="45" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="257" hits="0" branch="False" />
+            <line number="258" hits="0" branch="False" />
+            <line number="259" hits="0" branch="False" />
+            <line number="262" hits="0" branch="False" />
+            <line number="263" hits="0" branch="False" />
+            <line number="265" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="115" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="267" hits="0" branch="False" />
+            <line number="268" hits="0" branch="False" />
+            <line number="270" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="KoreForge.Metrics.Flow.PipelineFlowMonitor/LatencyTracker" filename="Flow\PipelineFlowMonitor.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Dispose" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="280" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Action)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="278" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="280" hits="0" branch="False" />
+            <line number="278" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

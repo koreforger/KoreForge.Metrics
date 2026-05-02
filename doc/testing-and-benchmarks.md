@@ -30,10 +30,10 @@ Aim for 80%+ in `KoreForge.Metrics.Core`, especially for non-trivial helpers suc
 
 ## Benchmarks
 
-The `tst/KF.Metrics.Benchmarks` project uses BenchmarkDotNet to track instrumentation overhead. Typical runs:
+The `tst/KoreForge.Metrics.Benchmarks` project uses BenchmarkDotNet to track instrumentation overhead. Typical runs:
 
 ```powershell
-dotnet run -c Release --project tst/KF.Metrics.Benchmarks
+dotnet run -c Release --project tst/KoreForge.Metrics.Benchmarks
 ```
 
 Benchmarks currently include:

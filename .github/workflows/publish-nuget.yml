@@ -32,7 +32,7 @@ jobs:
         run: dotnet test KoreForge.Metrics.slnx -c Release --no-build
 
       - name: Pack
-        run: dotnet pack src/KF.Metrics/KF.Metrics.csproj -c Release --no-build -o artifacts/
+        run: dotnet pack src/KoreForge.Metrics/KoreForge.Metrics.csproj -c Release --no-build -o artifacts/
 
       - name: Push to NuGet.org
         run: |
